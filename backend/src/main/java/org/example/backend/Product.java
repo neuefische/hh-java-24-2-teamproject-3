@@ -5,4 +5,9 @@ public record Product(
         String title
 
 ) {
+    Product(
+            String title
+    ){
+        this(null,title);
+    }
 }

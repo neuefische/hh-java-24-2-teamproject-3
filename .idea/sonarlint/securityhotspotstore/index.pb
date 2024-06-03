@@ -33,8 +33,6 @@ f
 6backend/src/main/java/org/example/backend/Product.java,c/7/c7f86657cef6aadc604901d3f5466ea3cc37e86a
 p
 @backend/src/main/java/org/example/backend/ProductRepository.java,c/1/c1e529d411e1373c7a16993c95a2e8a1d205eb1b
-m
-=backend/src/main/java/org/example/backend/ProductService.java,4/1/4178818302928ac49d1b00195996b46861483879
 i
 9backend/src/main/java/org/example/backend/NewProduct.java,2/6/263db88d53b8f271df5cac09cc351525dc1aa584
 w
@@ -91,3 +89,5 @@ w
 G.idea/sonarlint/issuestore/c/7/c7f86657cef6aadc604901d3f5466ea3cc37e86a,0/b/0b96e5e8c414d382ffca6f7f323b9474245bda55
 w
 G.idea/sonarlint/issuestore/c/1/c1e529d411e1373c7a16993c95a2e8a1d205eb1b,5/d/5dab282beda12be47c5dfdeb397c27b361b76dde
+l
+<backend/src/main/java/org/example/backend/NewProductDTO.java,4/8/48e238ff8c3ddbc950d68ab43a42de8e262167a7

@@ -1,6 +1,7 @@
 package org.example.backend;
 
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -8,7 +9,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/api/product")
+@RequestMapping("/api/products")
 @RequiredArgsConstructor
 
 public class ProductController {
@@ -24,9 +25,9 @@ public class ProductController {
 
 
     @PostMapping
-    public Product addProduct(@RequestBody NewProduct newProduct) {
-        Product product = new Product(null, newProduct.title());
-        return productRepository.save(product);
+    public Product addProduct(@RequestBody @Valid NewProductDTO product) {
+
+        return productRepository.save(new Product(product.title()));
     }
 
 }
