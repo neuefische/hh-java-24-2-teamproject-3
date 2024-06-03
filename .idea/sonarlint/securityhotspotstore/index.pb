@@ -23,3 +23,17 @@ w
 G.idea/sonarlint/issuestore/c/6/c674a9362f1227a8e6ad2024f791f060b7caa89f,c/5/c52625e8bb151a703620027dbb46770e384fba79
 w
 G.idea/sonarlint/issuestore/3/7/37083060967a471c011a16651e22bdc2ade41759,b/d/bd10bacc2f1550de93eaf4cd7641b7db1f3ab22a
+Å
+Q.idea/sonarlint/securityhotspotstore/f/9/f9590cd73598b6f2427c8b1327d922c50d1dc504,2/1/21a456c915c2bff55e957020e02fa37338bc43f6
+w
+G.idea/sonarlint/issuestore/f/9/f9590cd73598b6f2427c8b1327d922c50d1dc504,e/8/e808844558e68f27e12f4ad8f3d4d79c456afa4b
+p
+@backend/src/main/java/org/example/backend/ProductController.java,b/b/bbe278fdcf7f1ecddf105816e35ac0e750326ae2
+f
+6backend/src/main/java/org/example/backend/Product.java,c/7/c7f86657cef6aadc604901d3f5466ea3cc37e86a
+p
+@backend/src/main/java/org/example/backend/ProductRepository.java,c/1/c1e529d411e1373c7a16993c95a2e8a1d205eb1b
+m
+=backend/src/main/java/org/example/backend/ProductService.java,4/1/4178818302928ac49d1b00195996b46861483879
+i
+9backend/src/main/java/org/example/backend/NewProduct.java,2/6/263db88d53b8f271df5cac09cc351525dc1aa584
