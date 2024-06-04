@@ -18,8 +18,8 @@ public class ProductController {
 
 
     @GetMapping
-    public List<Product> getAllProducts() {
-        return productRepository.findAll();
+     List<Product> getAllProducts() {
+        return List.of(new Product("", "Birne", 5 ));
     }
 
 
@@ -27,7 +27,8 @@ public class ProductController {
     @PostMapping
     public Product addProduct(@RequestBody @Valid NewProductDTO product) {
 
-        return productRepository.save(new Product(product.title()));
+        return productRepository.save(new Product(product.getTitle(), product.getAmount()));
+
     }
 
 }

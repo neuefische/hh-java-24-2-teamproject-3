@@ -5,8 +5,16 @@ import jakarta.validation.constraints.Size;
 
 public record NewProductDTO(
         @NotBlank
-        @Size(min = 2, max = 32)
-        String title
-
+        @Size(min = 2, max = 50)
+        String title,
+        int amount
 ) {
+
+    public String getTitle() {
+        return title;
+    }
+
+    public int getAmount() {
+        return amount;
+    }
 }

@@ -1,7 +1,8 @@
 package org.example.backend;
 
 public record NewProduct(
-        String title
+        String title,
+        int amount
 
 
 ) {
