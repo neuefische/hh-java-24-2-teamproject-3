@@ -1,13 +1,12 @@
 package org.example.backend;
 
-public record Product(
-        String id,
-        String title
+public record Product(String id, String title, int amount) {
+    public Product(String title) {
+        this(null, title, 0);
+    }
 
-) {
-    Product(
-            String title
-    ){
-        this(null,title);
+    public Product(String title, int amount) {
+        this(null, title, amount);
     }
 }
+

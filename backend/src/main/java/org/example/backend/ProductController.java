@@ -7,27 +7,21 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
 @RestController
 @RequestMapping("/api/products")
 @RequiredArgsConstructor
-
 public class ProductController {
 
-    private final ProductRepository productRepository;
-
+    private final ProductService productService;
 
     @GetMapping
     public List<Product> getAllProducts() {
-        return productRepository.findAll();
+        return productService.findAllTodos();
     }
-
-
 
     @PostMapping
     public Product addProduct(@RequestBody @Valid NewProductDTO product) {
-
-        return productRepository.save(new Product(product.title()));
+        return productService.addProduct(product);
     }
-
 }
+

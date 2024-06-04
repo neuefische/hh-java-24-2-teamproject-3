@@ -91,3 +91,7 @@ w
 G.idea/sonarlint/issuestore/c/1/c1e529d411e1373c7a16993c95a2e8a1d205eb1b,5/d/5dab282beda12be47c5dfdeb397c27b361b76dde
 l
 <backend/src/main/java/org/example/backend/NewProductDTO.java,4/8/48e238ff8c3ddbc950d68ab43a42de8e262167a7
+h
+8backend/src/main/java/org/example/backend/IdService.java,a/d/ade584bee5740427d22679eb833b7347bd939a5a
+m
+=backend/src/main/java/org/example/backend/ProductService.java,4/1/4178818302928ac49d1b00195996b46861483879
