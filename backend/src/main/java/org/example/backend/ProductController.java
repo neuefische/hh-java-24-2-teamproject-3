@@ -24,4 +24,3 @@ public class ProductController {
         return productService.addProduct(product);
     }
 }
-

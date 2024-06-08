@@ -157,3 +157,9 @@ DockerFile,4/0/40f7331d8e28c3c74df3da70560f362ea1796985
 :
 
 Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+p
+@Merge_remote-tracking_branch_'origin_AddPost'_into_AddPost.patch,9/5/95dc9a928f3835013d977fc8a185b25ab887ae10
+Z
+*frontend/src/components/AddProductForm.tsx,3/1/31688a1e710ae871ab022a059da28dafddef3164
+P
+ frontend/src/CSS/ProductForm.css,e/4/e40d30534f884dd0371784b08334fe84e6c46f39
